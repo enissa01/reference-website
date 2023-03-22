@@ -1,0 +1,78 @@
+:root {
+  --font-size-sm: clamp(0.83rem, 0.01vw + 0.83rem, 0.84rem);
+  --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+  --font-size-md: clamp(1.2rem, 0.87vw + 0.98rem, 1.68rem);
+  --font-size-lg: clamp(1.44rem, 1.7vw + 1.02rem, 2.37rem);
+  --font-size-xl: clamp(1.73rem, 2.96vw + 0.99rem, 3.36rem);
+  --font-size-xxl: clamp(2.07rem, 4.86vw + 0.86rem, 4.75rem);
+  --font-size-xxxl: clamp(2.49rem, 7.68vw + 0.57rem, 6.71rem);
+  }
+
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: var(--font-size-xxxl);
+    color: red;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: var(--font-size-xxl);
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: right;
+  }
+
+  h3 {
+    font-size: var(--font-size-xl);
+    font-family: sans-serif;
+  }
+
+  h4 {
+    font-size: var(--font-size-lg);
+  }
+
+  h5 {
+    font-size: var(--font-size-md);
+  }
+
+  p {
+    font-size: var(--font-size-base);
+  }
+
+img {
+  max-width: 300px;
+  width: auto;
+  height: auto;
+  border: 4px solid #FFC0CB;
+  border-radius: 1em;
+  padding: .3em;
+}
+
+.for-wendy {
+  background-color: #a8ebe2;
+}
+
+#text {
+  color: #FFC0CB;
+}
+
+.section2 {
+  background-image: url("img/paper-texture.webp");
+}
+
+@media only screen and (min-width: 38em) {
+  .for-wendy {
+    background-color: palevioletred;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .for-wendy {
+    background-color: bisque;
+  }
+}
+
+
