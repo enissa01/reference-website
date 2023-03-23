@@ -22,7 +22,7 @@
     font-size: var(--font-size-xxl);
     text-decoration: underline;
     text-transform: uppercase;
-    text-align: right;
+    text-align: center;
   }
 
   h3 {
@@ -56,7 +56,7 @@ img {
 }
 
 #text {
-  color: #FFC0CB;
+  color: red;
 }
 
 .section2 {
